@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import random, elogetter
 
-# Created from GetrundeltHD
+# Created by GetrundeltHD
 # 12-11-2017
 
 """
