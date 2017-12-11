@@ -40,8 +40,10 @@ async def summoner(*name):
             s += name[i]
     print(s)
     elo, summ = elogetter.getElo(s)
-    if(summ == None or elo == None):
+    if summ == None or elo == None:
         await bot.say("An error occured!")
+    elif summ == "nothing" or elo == "nothing":
+        await bot.say("Please enter a summoner name! -> #summoner <name>")
     else:
         out = "The player " + s + " is currently in -> "
         out += elo + " " + summ["rank"] + "\n"
