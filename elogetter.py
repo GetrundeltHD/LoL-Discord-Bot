@@ -46,7 +46,7 @@ def getElo(name = ""):
 
         sum_id = json.loads(respData)["id"]
         
-        URL2 = "https://euw1.api.riotgames.com/lol/league/v3/leagues/by-summoner/" + str(sum_id) + "?api_key=RGAPI-5c014afd-d8a8-4b9d-bfc5-f7e825071b9e"
+        URL2 = "https://euw1.api.riotgames.com/lol/league/v3/leagues/by-summoner/" + str(sum_id) + "?api_key=" + API_KEY
 
         # API-Call to get the ranked data
         # for the given summonerid
