@@ -11,4 +11,4 @@ The eloName is a String that just holds the name of the players elo.
 The dict thats returned cotains the players name, rank in the given elo, 
 league points, if hes an veteran, if hes in a hodstreak, if hes inactive or if hes freshblood.
 
-To use the bot on your discord just type in the chat -> #summoner <name>
+To use the bot on your discord just type in the chat -> #summoner #name#
