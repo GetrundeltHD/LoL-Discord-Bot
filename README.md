@@ -1,5 +1,5 @@
 # LoL-Discord-Bot
-A Discord-Bot made in Python3 that shows you the elo of an player.
+A Discord-Bot made in Python3 that shows you the elo of a player.
 
 In the main.py is the specified command and the initilisation of the bot.
 
