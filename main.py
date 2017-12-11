@@ -17,6 +17,8 @@ in the elogetter module. DONT use the bot with a development api key!
 
 """
 
+description = "This bot is able to get the elo of a given summoner. -> #summoner <name>"
+
 bot = commands.Bot(command_prefix='#', description=description)
 
 @bot.event
